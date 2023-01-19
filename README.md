@@ -1,14 +1,15 @@
 # ly-acl-juro
-###Owner test
-Carlos Manso
-###Description
-Web app Cliente Ropathi
+### Owner test
+Yosmay Morales
+### Description
+Web app Cliente Le Piu Belle Joyeria
 
 ## contacts
 * Darmoz Code Solutions (darmozcs@gmail.com)
 * drodriguez951239@gmail.com
 * carlosmanso12@gmail.com
 * soto95r@gmail.com
+* yosmaym92@gmail.com
 
 
 ## Levantar Local
