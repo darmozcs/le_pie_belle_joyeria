@@ -1,0 +1,41 @@
+.home-container{
+    display: flex;
+    flex-direction: column ;
+}
+ 
+
+.location-container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+} 
+
+.location-image{
+    width: 80%;
+    height: auto;
+}
+.tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag>h3{
+    margin-left: 10px;
+}
+.tag-location{
+    color: rgb(254, 91, 138);
+    cursor: pointer;
+    text-align: center ;
+}
+
+.tag-location:hover{
+    color: #333;
+    
+}

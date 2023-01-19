@@ -1,0 +1,23 @@
+p{
+    margin: .2rem 0 .2rem 0;
+}
+.item__see__image__container{
+    width: 8rem;
+    height: 10rem;
+    overflow: hidden;
+}
+.item__see__image__container img{
+    width: 100%;
+    height: 100%;
+}
+#update{
+    width: 100%;
+    border: solid 2px #d50000;
+    color: #d50000;
+}
+
+.empty__tag{
+    color: #d50000;
+    margin: 1rem;
+}
+

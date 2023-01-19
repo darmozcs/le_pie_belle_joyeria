@@ -1,0 +1,9 @@
+.tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    grid-area: tag;
+    color:  rgb(254, 91, 138);
+}   

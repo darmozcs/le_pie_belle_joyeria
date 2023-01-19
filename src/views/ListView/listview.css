@@ -1,0 +1,13 @@
+.listview-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(254, 91, 138);
+
+
+
+}
+
+.listview-header{
+    margin-top: 2rem;
+}  

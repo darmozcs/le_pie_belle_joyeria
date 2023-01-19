@@ -1,0 +1,68 @@
+
+.admin__page__buttons__container {
+  padding: 0.5rem;
+  background: rgb(254, 91, 138);
+  width: 10%;
+  height: 100vh;
+  margin: 0;
+  position: sticky;
+  top: 0px;
+}
+.admin__page__body{
+  width: 90%;
+  height: 100vh;
+}
+
+.admin__page__button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0.2rem;
+  color: #fff;
+
+}
+.admin__page__button:hover{
+  cursor: pointer;
+}
+.admin__page__container{
+  display: flex;
+  flex-direction: row;
+}
+
+#option {
+  background-color: #00C853;
+}
+
+#option:hover {
+  background-color: #1B5E20;
+}
+#option:active {
+  background-color: #00C853;
+}
+
+
+#logout{
+  background-color: #D50000;
+} 
+
+#logout:hover{
+  background-color: #B71C1C;
+} 
+
+#logout:active{
+  background-color: #D50000;
+}
+
+@media screen  and (max-width:800px){
+  .admin__page__buttons__container{
+    width: 100%;
+    height: 3rem;
+    padding: 0%;
+  }
+  .admin__page__container{
+    flex-direction: column;
+  }
+  .admin__page__body{
+    width: 100vw;
+  }
+}

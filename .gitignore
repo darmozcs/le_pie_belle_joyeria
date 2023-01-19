@@ -1,0 +1,49 @@
+# dependencies
+node_modules
+
+# production
+build
+
+# testing
+coverage
+
+# Created by https://www.toptal.com/developers/gitignore/api/firebase,react,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=firebase,react,dotenv
+
+### dotenv ###
+.env
+.env.local
+.env.development.local
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+# VS Code
+.vscode/*
+!.vscode/snippets
+!.vscode/launch.json
+!.vscode/settings.json
+
+bower_components
+
+# Misc
+.firebase/*
+__generated__
+.eslintcache
+.yarn-integrity
+backup.sql
+VERSION
+.env_prod

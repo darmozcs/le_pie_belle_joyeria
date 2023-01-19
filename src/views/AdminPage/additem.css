@@ -1,0 +1,39 @@
+.add__item__container{
+    padding: 0.5rem;
+    background-color: #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.add__item__form{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    margin-right: 3rem;
+}
+.item__tag{
+    margin-top:0.3rem;
+    color: #444;
+}
+
+.item__input{
+    border: none;
+    border-radius: 20px;
+    padding: 0.3rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.new__item__details__container{
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 20rem;
+}
+.--item{
+    width: 100%;
+}

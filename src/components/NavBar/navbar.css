@@ -1,0 +1,111 @@
+ .navbar{
+    background-color: rgb(254, 91, 138);
+    color: #fff;
+    height: 85px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 1rem;
+    top:0;
+ }
+ .navbar-container{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+ }
+ .navbar-brand{
+    width: 40%;
+    height: auto;
+    margin-left: 2.5rem;
+ }
+ #logo_displayed{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+ #img_displayed{
+    margin: 0;
+ }
+ .navbar-links{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: baseline;
+    list-style: none;
+    margin-top: 5rem;
+    margin-right: 2.5rem;
+ }
+ .navbar-item{
+        text-decoration: none;
+        display: flex;
+        height: 100%;
+        align-content: center;
+        padding: 0 1rem;
+        justify-content: center;
+        color: #fff;
+        cursor: pointer;
+ }
+
+.navbar-item:hover{
+    color: #333;
+    
+}
+.item-active:hover{
+    color: #fff;
+}
+.navbar-button{
+
+    display: none;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+
+
+@media screen  and (max-width:800px){
+    .navbar-item{
+        display: none;
+    }
+    .navbar-item:hover{
+        cursor: pointer;
+    }
+    .navbar-button{
+        display: flex;
+        align-items: center;
+        margin: 0%;
+    }
+    .navbar-links{
+        align-items: center;
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        height: fit-content;
+    }
+    .nav-cont-visible{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .visible{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        
+    }
+    .item-active{
+        display: flex;
+        margin-bottom: 0%;
+        
+    }
+}

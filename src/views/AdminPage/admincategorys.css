@@ -1,0 +1,155 @@
+.admin__categorys__container{
+    padding: 0.5rem;
+    height: 100vh;
+
+}
+.categorys__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ddd;
+    margin: 1rem 0;
+    padding: 0.2rem;
+    border-radius: 10px;
+
+}
+.category__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    overflow: scroll;
+    border-radius: 10px;
+}
+.category__buttons{
+    background-color: #fff;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Delete Button */
+#delete{
+    width: 100%;
+    background-color: #d50000;
+}
+#delete:hover{
+    background-color: #B71C1C;
+} 
+#delete:active{
+    background-color: #D50000;
+}
+
+
+/* Modify Button */
+#modify{
+    width: 100%;
+    background-color: #FFD600;
+}
+#modify:hover{
+    background-color: #F57F17;
+  } 
+  
+  #modify:active{
+    background-color: #FFD600;
+  }
+
+/* See Items Button */
+#seeitems{
+    width: 100%;
+    background-color: #2962ff;
+}
+#seeitems:hover{
+    background-color: #01579B;
+}
+#seeitems:active{
+    background-color: #2962ff;
+}
+
+/* Add Category Button*/
+#add{
+    background-color: #00c853;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#add:hover {
+    background-color: #1B5E20;
+}
+#add:active {
+    background-color: #00C853;
+}
+
+/* Save Button*/
+#save{
+    background-color: #00c853;
+}
+#save:hover {
+    background-color: #1B5E20;
+}
+#save:active {
+    background-color: #00C853;
+}
+  
+/* Preview Button*/  
+#preview{
+    background-color: #2962ff;
+}
+#preview:hover{
+    background-color: #01579B;
+}
+#preview:active{
+    background-color: #2962ff;
+}
+
+.buttons__containers{
+    display: flex;
+    flex-direction: row;
+}
+
+.category__image{
+    width: 8rem;
+    height: 10rem;
+    overflow: hidden;
+
+}
+.category__image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.add__new__category{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__container{
+    background-color: #ddd;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    border-radius: 10px;
+    align-items: flex-end;
+}
+
+.preview__container{
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#adminCategorys:hover{
+    box-shadow: 3px 3px 3px #666;
+}

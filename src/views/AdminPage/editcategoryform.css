@@ -1,0 +1,140 @@
+
+
+.category-form-container{
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    position: sticky;
+    top: 6rem;
+    background-color: #ec407a;
+    height: fit-content;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-form-header{
+    display: flex;
+    flex-direction: row;
+}
+
+.category-form-tag{ 
+    color: #fff;
+    width: 100%;
+}
+#cancel{
+    width: 1rem;
+    margin: 1rem;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #d50000;
+}
+#cancel:hover{
+    background-color: #B71C1C;
+} 
+#cancel:active{
+    background-color: #D50000;
+}
+.category-form-item{
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.category-form-img-container{
+    width: 20rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.category-form-img{
+    width: 100%;
+}
+
+.category-form-tittle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-form-btn-m{
+    height: fit-content;
+    padding: 0.5rem;
+    margin: .5rem auto;
+    border: none;
+    border-radius: 7px;
+    background-color: #ea80fc;
+    color: #333;
+}
+
+.category-form-btn-m:hover{
+    background-color: #880e4f;
+    color: #ffebee;
+}   
+.category-form-btn-m:active{
+    background-color: #ea80fc;
+    color: #333;
+}
+
+.category-form-btn-d{
+    height: fit-content;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    border: none;
+    border-radius: 7px;
+    background-color: #d32f2f;
+    color: #ffebee;
+
+}
+
+.category-form-btn-d:hover{
+    background-color: #b71c1c;
+    color: #ffebee;
+}   
+.category-form-btn-d:active{
+    background-color: #d32f2f;
+    color: #333;
+}
+
+
+.category-form-img-container{
+    margin: 0 auto;
+}
+
+.category-tittle-change-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-tittle-input{
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    color:#880e4f;
+    margin-left: 1rem;
+}
+
+.category-tittle-input:focus{
+    outline: none;
+}
+
+.category-tittle-btn{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    background-color: #ea80fc;
+    color: #333;
+}
